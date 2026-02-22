@@ -1,0 +1,17 @@
+/* 强制底部播放器全宽 */
+.aplayer.aplayer-fixed {
+    width: 100% !important;
+    max-width: 100% !important;
+    left: 0 !important;
+}
+.aplayer.aplayer-fixed .aplayer-body {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+/* 强制封面文字静止显示，不闪烁 */
+#site_description {
+    display: block !important;
+    opacity: 1 !important;
+    animation: none !important;
+}
